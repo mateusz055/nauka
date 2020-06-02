@@ -14,9 +14,14 @@ namespace WpfApp2
     // Pass iBuffer to unmanaged API function.  The unmanaged API passes in the wait handle as a ref uint.
 
     var handles = new[] { resetEvent, _cancellationTokenSource.Token.WaitHandle };
-    while(WaitHandle.WaitAny(handles) == 0)
+    while(WaitHandle.)
     {
-       // do stuff in response to resetEvent being signaled.
+       // do stuff in  being signaled.
+       hgfhfghh
+        hh
+        fgh
+        gfhfg
+        hfghfgh
     }
 }
     }

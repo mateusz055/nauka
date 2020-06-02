@@ -29,11 +29,14 @@ namespace WpfApp2
         void GenerarReporte()
         {
             // PROCESO....
+            //TUTAJ COŚ ZMIEN
+            //TUTAJ COŚ ZMIEN
+            //TUTAJ COŚ ZMIEN
         }
 
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            GenerarReporte();
+            Gjghjghjhgjhghj
         }
 
         private void backgroundWorker1_ProgressChanged(object sender, System.ComponentModel.ProgressChangedEventArgs e)

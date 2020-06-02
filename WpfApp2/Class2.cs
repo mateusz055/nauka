@@ -10,6 +10,9 @@ namespace WpfApp2
     {
         var downloadBlock = new TransformBlock<int, Try<int>>(construct => Try.Create(() =>
         {
+            //TUTAJ COŚ ZMIEN
+            //TUTAJ COŚ ZMIEN
+            //TUTAJ COŚ ZMIEN
             //SomeProcessingMethod();
             return 1;
         }));
@@ -20,16 +23,15 @@ namespace WpfApp2
         }));
         var resultsBlock = new ActionBlock<Try<int>>(construct =>
         {
-            if (construct.IsException)
+            if (co
             {
-                var exception = construct.Exception;
-                switch (exception)
+                var e
                 {
                     fdsfsdfsdfsdfsd
                         //_notificationService.NotifyUser("OMG, my dear sir, I think I messed something up:/"
-                        //Register that this item was faulted, so we know that we need to retry it.                            
+                        //Register that this item was faulfdsfdfsfsdfsdfdsf                          
                         break;
-                    default:
+                    de
                         break;
                 gfgfdgfdgfdg
                 }
