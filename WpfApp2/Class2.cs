@@ -16,7 +16,7 @@ namespace WpfApp2
         var processBlock = new TransformBlock<Try<int>, Try<int>>(construct => construct.Map(value =>
         {
             //SomeProcessingMethod();
-            return 1;
+          
         }));
         var resultsBlock = new ActionBlock<Try<int>>(construct =>
         {
@@ -25,18 +25,19 @@ namespace WpfApp2
                 var exception = construct.Exception;
                 switch (exception)
                 {
-                    case GoogleApiException gex:
+                    fdsfsdfsdfsdfsd
                         //_notificationService.NotifyUser("OMG, my dear sir, I think I messed something up:/"
                         //Register that this item was faulted, so we know that we need to retry it.                            
                         break;
                     default:
                         break;
+                gfgfdgfdgfdg
                 }
             }
         });
         public static double FindSmallestNum(double[] arr)
         {
-            double max = 0;
+            doubl
             for (int x = 0; x < arr.Length - 1; x++)
             {
                 if (arr[x] >= arr[x + 1])

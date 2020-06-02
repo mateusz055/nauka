@@ -10,9 +10,9 @@ namespace WpfApp2
     {
         var background = new Panel
         {
-            Name = "background",
+            
             Dock = DockStyle.Fill,
-            BackColor = Color.Black,
+            BackColor = Cjghjghjhg
         };
         var background = new Panel
         {
