@@ -24,5 +24,22 @@ namespace WpfApp2
         {
             InitializeComponent();
         }
+        public static int function2(int[] numbers)
+        {
+            for (var h = numbers.Length / 2; h > 0; h /= 2)
+            {
+                for (var i = h; i < numbers.Length; i += 1)
+                {
+                    var temp = numbers[i];
+                    int t;
+                    for (t = i; t >= h && numbers[t - h] > temp; t -= h)
+                    {
+                        numbers[t] = numbers[t - h];
+                    }
+                    numbers[t] = temp;
+                }
+            }
+            return 0;
+        }
     }
 }
